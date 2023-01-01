@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(218, 44%, 22%);
+  --Outfit: "Outfit", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    height: 100%;
+}
+body{
+    display: grid;
+    place-items: center;
+    font-family: var(--Outfit);
+    background-color: #d5e1ef;
+    height: 100%;
+}
+p{
+    font-size: 1.5rem;
+}
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.card{
+    width: 34.5em;
+    min-height: 30em;
+    background-color: var(--White);
+    padding: 1.5em;
+    border-radius: 20px;
+}
+.card__img{
+    background-image: url("./images/image-qr-code.png");
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+.card__texts{
+    margin-top: 2em;
+    display: flex;
+    gap: 1.2em;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.card__title{
+    font-size: 2.4rem;
+}
+.card__paragraph{
+    color: var(--Grayish-blue);
+    letter-spacing: .9px;
+}
