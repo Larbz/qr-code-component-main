@@ -40,7 +40,6 @@ p{
     border-radius: 20px;
 }
 .card__img{
-    background-image: url("./images/image-qr-code.png");
     border-radius: 10px;
     background-size: cover;
     background-repeat: no-repeat;
